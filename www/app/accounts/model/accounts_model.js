@@ -11,23 +11,23 @@
     };
 
     function clearUser() {
-      $cookies.remove("authenticatedUser");
+      $cookies.remove("pdsAuthenticatedUser");
     }
 
     function getUser() {
-      if (!$cookies.get("authenticatedUser")) {
+      if (!$cookies.get("pdsAuthenticatedUser")) {
         return undefined;
       }
 
-      return JSON.parse($cookies.get("authenticatedUser"));
+      return JSON.parse($cookies.get("pdsAuthenticatedUser"));
     }
 
     function hasUser() {
-      return !!$cookies.get("authenticatedUser");
+      return !!$cookies.get("pdsAuthenticatedUser");
     }
 
     function setUser(data) {
-      $cookies.put("authenticatedUser", JSON.stringify(data.user));
+      $cookies.put("pdsAuthenticatedUser", JSON.stringify(data.user));
     }
 
     return service;
