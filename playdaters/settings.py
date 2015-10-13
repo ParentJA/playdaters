@@ -33,7 +33,7 @@ LOCAL_APPS = (
     'accounts',
     'chats',
     'children',
-    'matches',
+    'friends',
     'play_dates',
 )
 

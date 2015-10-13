@@ -4,8 +4,8 @@ __author__ = 'jason.a.parent@gmail.com (Jason Parent)'
 from django.conf.urls import url
 
 # Local imports...
-# from .views import MatchAPIView
+# from .views import FriendAPIView
 
 urlpatterns = [
-    # url(r'^matches/$', MatchAPIView.as_view()),
+    # url(r'^friends/$', FriendAPIView.as_view()),
 ]

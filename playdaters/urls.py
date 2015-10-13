@@ -14,7 +14,7 @@ urlpatterns = [
     url(r'^accounts/', include('accounts.urls')),
     url(r'^api/v1/chats/', include('chats.urls')),
     url(r'^api/v1/children/', include('children.urls')),
-    url(r'^api/v1/matches/', include('matches.urls')),
+    url(r'^api/v1/friends/', include('friends.urls')),
     url(r'^api/v1/play_dates/', include('play_dates.urls')),
     url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', include(admin.site.urls)),
